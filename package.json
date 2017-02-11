@@ -14,7 +14,9 @@
     "node": ">=4"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "files": [
     "index.js",
@@ -25,7 +27,9 @@
   ],
   "dependencies": {
     "is-animatable": "^1.0.1",
-    "marked": "^0.3.6"
+    "marked": "^0.3.6",
+    "snyk": "^1.25.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
