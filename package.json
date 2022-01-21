@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "is-animatable": "^1.0.1",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "snyk": "^1.25.0"
   },
   "devDependencies": {},
